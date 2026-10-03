@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Operator {
+public class Day32 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
