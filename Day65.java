@@ -1,7 +1,14 @@
-public class Day65{
+import java.util.Scanner;
+
+public class Day65 {
     public static void main(String[] args) {
-        for(int i = 1; i <= 5; i++){
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+
+        for (int b = 1; b <= a; b++) {
             System.out.println("*");
+            
         }
     }
+    
 }
