@@ -1,13 +1,17 @@
 import java.util.Scanner;
+public class App {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int baris = in.nextInt();
+        int kolom = in.nextInt();
 
-public class Day66{
-    public static void main(String[] args) throws Exception {
-        Scanner in= new Scanner(System.in);
-
-    for (int i = 0; i< 5; i++) {
-            for (int j = 0; j < 9; j++) {
-                System.out.print((i + j) % 2 == 0 ? "# " : "0 ");
-                
+        for(int i = 1; i <= baris; i++){
+            for(int j = 1; j <= kolom; j++){
+                if((i + j) % 2 == 0){
+                    System.out.print("# ");
+                } else {
+                    System.out.print("0 ");
+                }
             }
             System.out.println();
         }
